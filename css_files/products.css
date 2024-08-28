@@ -6,7 +6,6 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: var(--background_light_gray);
     color: var(--background_dark_gray);
