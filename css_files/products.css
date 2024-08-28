@@ -89,9 +89,10 @@ nav ul li a {
     flex-basis: 30%;
 }
 
-.products.container.product-list.product img {
+.product img {
     border-radius: 10px;
-    size: 10%;
+    width: 200px;
+    height: auto;
 }
 
 .product h3 {
