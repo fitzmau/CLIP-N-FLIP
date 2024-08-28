@@ -60,6 +60,10 @@ nav ul li a {
     margin: 0 auto;
 }
 
+.our_team {
+    background-color: bisque;
+}
+
 .philosophy {
     background-color: aqua;
 }
