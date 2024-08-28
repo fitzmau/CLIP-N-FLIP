@@ -89,7 +89,7 @@ nav ul li a {
     flex-basis: 30%;
 }
 
-img {
+.product img {
     border-radius: 15px;
     width: 200px;
     height: auto;
