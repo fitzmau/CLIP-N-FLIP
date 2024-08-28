@@ -23,11 +23,10 @@ main {
     padding: 100px 50px;
 }
 
-header {
-    background-color: var(--background_dark_purple);
-    color: var(--text_color_dark_yellow);
+.container {
+    width: 80%;
+    margin: 0 auto;
     padding: 20px 0;
-    text-align: center;
 }
 
 header {
