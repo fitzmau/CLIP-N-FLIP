@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'new amsterdam', sans-serif;
+}
+
+body {
+    --content_height: 282px;
+    --acent_color: aqua;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    padding: 100px 50px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    background: var(--background_dark_purple);
+    color: var(--text_color_dark_yellow);
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+} 
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: var(--text_color_light_yellow);
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.team {
+    padding: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+}
+
+.team h2 {
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    color: var(--background_dark_gray);
+}
+
+.card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    max-width: 100%;
+    height: 300px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 20px;
+    transition: 0.5s;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+}
+
+.card .image {
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    height: 220px;
+    background-color: #333;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.card:hover .image {
+    top: -100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+}
+
+.image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    position: absolute;
+    top: 252px;
+    width: 100%;
+    height: 38px;
+    padding: 0 30px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.card .Member_Name {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--background_dark_gray);
+}
+
+.card:hover {
+    height: calc(var(--content_height) +  100px);
+}
+
+.card:hover .content {
+    top: 130px;
+    height: var(--content_height);
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 230px;
+        border-radius: 15px;
+    }
+
+    .card .image {
+        width: 185px;
+        border-radius: 10px;
+    }
+
+    .card .content p {
+        font-size: 0.8rem;
+    }
+
+    .card:hover {
+        height: calc(var(--content_height) + 120px);
+    }
+}
+
+footer {
+    background-color: var(--background_dark_purple);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.new-amsterdam-regular {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
