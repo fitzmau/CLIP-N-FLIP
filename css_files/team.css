@@ -30,24 +30,29 @@ header {
     text-align: center;
 }
 
+header {
+    background: var(--background_dark_purple);
+    color: var(--text_color_dark_yellow);
+    padding: 20px 0;
+    text-align: center;
+}
+
 header h1 {
     margin-bottom: 10px;
 }
 
-header li {
-    display: flex;
-    margin: 0 15px;
-    text-align: left;
+nav ul {
     list-style: none;
 }
 
-header li a {
-    color: var(--text_color_light_yellow);
-    text-decoration: none;
+nav ul li {
+    display: inline;
+    margin: 0 15px;
 }
 
-header p {
-    font-size: 1.2em;
+nav ul li a {
+    color: var(--text_color_light_yellow);
+    text-decoration: none;
 }
 
 .container {
