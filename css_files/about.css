@@ -61,7 +61,30 @@ nav ul li a {
 }
 
 .our_team {
-    background-color: bisque;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 100%;
+    padding: 10px;
+    margin: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+}
+
+
+.history {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 100%;
+    padding: 10px;
+    margin: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
 }
 
 .philosophy {
@@ -70,6 +93,7 @@ nav ul li a {
     justify-content: center;
     align-items: flex-start;
     max-width: 100%;
+    padding: 10px;
     margin: 30px;
     background-color: #fff;
     border-radius: 20px;
