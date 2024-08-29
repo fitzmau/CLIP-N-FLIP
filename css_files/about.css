@@ -62,7 +62,7 @@ nav ul li a {
 
 .our_team {
     position: relative;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: flex-start;
     max-width: 100%;
@@ -76,7 +76,7 @@ nav ul li a {
 
 .history {
     position: relative;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: flex-start;
     max-width: 100%;
