@@ -60,6 +60,16 @@ nav ul li a {
     margin: 0 auto;
 }
 
+.hero {
+    background-color: var(--background_light_yellow);
+    color: #fff;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 .our_team {
     position: relative;
     display: block;
