@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'new amsterdam', sans-serif;
+}
+
+body {
+    --content_height: 282px;
+    --acent_color: aqua;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    padding: 100px 50px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    background: var(--background_dark_purple);
+    color: var(--text_color_dark_yellow);
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+} 
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: var(--text_color_light_yellow);
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hero {
+    background-color: var(--background_light_yellow);
+    color: #fff;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: var(--text_color_dark_purple);
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: var(--text_color_light_purple);
+}
+
+.our_team {
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 1.2em;
+    max-width: 100%;
+    padding: 10px;
+    margin: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+}
+
+.history h3 {
+    color: var(--text_color_dark_yellow);
+}
+
+.history {
+    background-color: var(--background_dark_purple);
+    color: var(--text_color_light_yellow);
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.philosophy {
+    background-color: var(--background_light_yellow);
+    color: #fff;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.philosophy h3 {
+    font-size: 2.3em;
+    margin-bottom: 10px;
+    color: var(--text_color_dark_purple);
+}
+
+.philosophy p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: var(--text_color_light_purple);
+}
+
+footer {
+    background-color: var(--background_dark_purple);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.new-amsterdam-regular {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
