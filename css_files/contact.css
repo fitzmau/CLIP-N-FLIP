@@ -123,6 +123,12 @@ nav ul li a {
     color: var(--text_color_dark_purple);
 }
 
+.social_media p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: var(--text_color_light_purple);
+}
+
 footer {
     background-color: var(--background_dark_purple);
     color: #fff;
